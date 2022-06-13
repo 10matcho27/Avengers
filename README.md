@@ -1,9 +1,16 @@
- work_koideharuna
+
+# 渡辺 敬太
+
+## 研究室
+CS52 陰山研究室
+
+## 趣味
+お酒
+
 # Avengers
     -こんにちはまっちょです！
     -小出です.ああああ
 
-work_god
 # Avengers
 ## ゴッドキング
 # Avengers
@@ -12,5 +19,3 @@ work_god
 髙松稜
 ### 年齢
 22
-main
- main
