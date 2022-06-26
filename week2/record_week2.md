@@ -1,4 +1,4 @@
-# 2022-06-20 [第 2 回>http://ws.cs.kobe-u.ac.jp/~masa-n/lecture/tokuronI/week2/index.html]
+# 2022-06-20 [第 2 回](http://ws.cs.kobe-u.ac.jp/~masa-n/lecture/tokuronI/week2/index.html)
 
 ## 審議事項
 
