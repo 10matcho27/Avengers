@@ -36,4 +36,3 @@
 ### 状態入力画面
 
 <img src="./picture/InputSit.png">
-

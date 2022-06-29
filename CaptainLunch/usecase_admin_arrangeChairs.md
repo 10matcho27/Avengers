@@ -45,10 +45,3 @@
 <img src="gamen1.png">
 
 コメント：．．．
-
-### ○○画面
-
-<img src="gamen2.png">
-
-コメント：．．．
-
