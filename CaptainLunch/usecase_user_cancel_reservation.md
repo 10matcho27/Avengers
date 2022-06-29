@@ -36,4 +36,6 @@
 
 ## GUI 紙芝居
 
-- なし
+### 座席の予約キャンセル画面
+
+<img src="./picture/CancelReservation.png">

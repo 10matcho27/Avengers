@@ -30,4 +30,6 @@
 
 ## GUI 紙芝居
 
-- なし
+### ホーム画面
+
+<img src="./picture/Home.png">
