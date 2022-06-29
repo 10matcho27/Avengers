@@ -33,14 +33,7 @@
 
 ## GUI 紙芝居
 
-### ○○ 画面
+### 状態入力画面
 
-<img src="gamen1.png">
+<img src="./picture/InputSit.png">
 
-コメント：．．．
-
-### ○○ 画面
-
-<img src="gamen2.png">
-
-コメント：．．．
