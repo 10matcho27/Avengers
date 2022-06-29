@@ -41,12 +41,7 @@
 - 6.a.1  基本フロー6において、一意性が確認されなかった場合や、問題があった場合、4に戻す。
 
 ## GUI紙芝居
-### ○○画面
-<img src="gamen1.png">
 
-コメント：．．．
+### ユーザ登録画面
 
-### ○○画面
-<img src="gamen2.png">
-
-コメント：．．．
+<img src="./picture/UserRegistration.png">
