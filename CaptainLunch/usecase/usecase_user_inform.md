@@ -31,8 +31,8 @@
 
 ### ホーム画面
 
-<img src="./picture/Home.png">
+<img src="./img/Home.png">
 
 ### ユーザ情報の確認画面
 
-<img src="./picture/ConfirmRegistration.png">
+<img src="./img/ConfirmRegistration.png">
