@@ -31,5 +31,5 @@
 1. [ログアウト](./usecase_admin_logout.md)
 1. [座席の変更](./usecase_admin_arrange_chairs.md)
 1. [全ユーザの削除](./usecase_admin_deleteUser.md)
-~~1. [全ユーザの追加](./usecase_admin_add_anyUser.md)~~
+1. [全ユーザの追加](./usecase_admin_add_anyUser.md)~~
 1. [全ユーザの照会](./usecase_admin_checkAnyUser.md)
