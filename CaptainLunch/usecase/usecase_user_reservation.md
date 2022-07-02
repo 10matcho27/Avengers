@@ -40,11 +40,11 @@
 
 ### ホーム画面
 
-<img src="./picture/Home.png">
+<img src="./img/Home.png">
 
 ### 席の予約画面
 
-<img src="./picture/Reservation.png">
+<img src="./img/Reservation.png">
 
 コメント：カレンダー，人数，時間，滞在時間を選択肢気にすることでエラーを未然に防げる
 
