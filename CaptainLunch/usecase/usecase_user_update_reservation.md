@@ -44,11 +44,11 @@
 
 ### ユーザ情報の確認画面
 
-<img src="./picture/ConfirmRegistration.png">
+<img src="./img/ConfirmRegistration.png">
 
 ### ユーザ情報の更新画面
 
-<img src="./picture/ChangeReservation.png">
+<img src="./img/ChangeReservation.png">
 
 コメント：予約の変更で日時は変えられないようにした方がエラーを出しやすそう
 

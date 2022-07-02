@@ -33,8 +33,8 @@
 
 ### ホーム画面
 
-<img src="./picture/Home.png">
+<img src="./img/Home.png">
 
 ### 予約の確認画面
 
-<img src="./picture/ConfirmReservation.png">
+<img src="./img/ConfirmReservation.png">

@@ -40,10 +40,10 @@
 
 ### ユーザ情報の確認画面
 
-<img src="./picture/ConfirmRegistration.png">
+<img src="./img/ConfirmRegistration.png">
 
 ### ユーザ情報の更新画面
 
-<img src="./picture/ChangeRegistration.png">
+<img src="./img/ChangeRegistration.png">
 
 コメント：変更の確認画面があった方が良い

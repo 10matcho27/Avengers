@@ -1,4 +1,4 @@
-# ユースケース 4： 任意のユーザの追加
+# ユースケース 5： 任意のユーザの追加
 
 このユースケースは必要ないかも？
 
@@ -48,4 +48,4 @@
 
 ### ユーザ登録画面
 
-<img src="./picture/UserRegistration.png">
+<img src="./img/UserRegistration.png">

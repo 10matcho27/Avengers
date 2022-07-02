@@ -36,6 +36,6 @@
 
 ### ユーザ情報の確認画面
 
-<img src="./picture/ConfirmRegistration.png">
+<img src="./img/ConfirmRegistration.png">
 
 - コメント : 退会の確認画面があった方がいい

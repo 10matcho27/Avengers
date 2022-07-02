@@ -33,8 +33,8 @@
 
 ### ホーム画面
 
-<img src="./picture/Home.png">
+<img src="./img/Home.png">
 
 ### 混雑状況の確認画面
 
-<img src="./picture/Confirm.png">
+<img src="./img/Confirm.png">
