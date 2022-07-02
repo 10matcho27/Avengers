@@ -32,4 +32,4 @@
 
 ### ホーム画面
 
-<img src="./picture/Home.png">
+<img src="./img/Home.png">
