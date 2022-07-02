@@ -1,4 +1,4 @@
-# ユースケース： ユーザ情報を確認する
+# ユースケース 2： ユーザ情報を確認する
 
 ## 概要
 
@@ -29,6 +29,10 @@
 
 ## GUI 紙芝居
 
+### ホーム画面
+
+<img src="./img/Home.png">
+
 ### ユーザ情報の確認画面
 
-<img src="./picture/ConfirmRegistration.png">
+<img src="./img/ConfirmRegistration.png">

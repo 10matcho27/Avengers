@@ -1,4 +1,4 @@
-# ユースケース： 席の予約情報を確認する
+# ユースケース 9： 席の予約情報を確認する
 
 ## 概要
 
@@ -31,6 +31,10 @@
 
 ## GUI 紙芝居
 
+### ホーム画面
+
+<img src="./img/Home.png">
+
 ### 予約の確認画面
 
-<img src="./picture/ConfirmReservation.png">
+<img src="./img/ConfirmReservation.png">

@@ -1,4 +1,4 @@
-# ユースケース：座席の予約をキャンセルする
+# ユースケース 11：座席の予約をキャンセルする
 
 ## 概要
 
@@ -36,6 +36,12 @@
 
 ## GUI 紙芝居
 
+### 予約の確認画面
+
+<img src="./img/ConfirmReservation.png">
+
 ### 座席の予約キャンセル画面
 
-<img src="./picture/CancelReservation.png">
+<img src="./img/CancelReservation.png">
+
+- コメント : キャンセルの確認画面があった方がいい

@@ -1,4 +1,4 @@
-# ユースケース： ユーザ情報を更新する
+# ユースケース 3： ユーザ情報を更新する
 
 ## 概要
 
@@ -38,8 +38,12 @@
 
 ## GUI 紙芝居
 
+### ユーザ情報の確認画面
+
+<img src="./img/ConfirmRegistration.png">
+
 ### ユーザ情報の更新画面
 
-<img src="./picture/ChangeRegistration.png">
+<img src="./img/ChangeRegistration.png">
 
 コメント：変更の確認画面があった方が良い

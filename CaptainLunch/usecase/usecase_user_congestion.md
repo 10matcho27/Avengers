@@ -1,4 +1,4 @@
-# ユースケース： 混雑状況を確認する
+# ユースケース 7： 混雑状況を確認する
 
 ## 概要
 
@@ -31,6 +31,10 @@
 
 ## GUI 紙芝居
 
+### ホーム画面
+
+<img src="./img/Home.png">
+
 ### 混雑状況の確認画面
 
-<img src="./picture/Confirm.png">
+<img src="./img/Confirm.png">
