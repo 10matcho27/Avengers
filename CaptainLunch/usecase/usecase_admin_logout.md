@@ -29,7 +29,8 @@
 
 なし
 
-## GUI紙芝居
+## GUI 紙芝居
 
-なし
+### 管理者のホーム画面
 
+<img src="./img/adminhome.png">

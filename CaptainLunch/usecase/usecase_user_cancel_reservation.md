@@ -36,6 +36,12 @@
 
 ## GUI 紙芝居
 
+### 予約の確認画面
+
+<img src="./picture/ConfirmReservation.png">
+
 ### 座席の予約キャンセル画面
 
 <img src="./picture/CancelReservation.png">
+
+- コメント : キャンセルの確認画面があった方がいい
