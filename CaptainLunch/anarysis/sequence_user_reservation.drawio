@@ -1,0 +1,440 @@
+<mxfile host="65bd71144e">
+    <diagram id="3x1FMWZE4iiEKVj_f41Y" name="ページ1">
+        <mxGraphModel dx="1386" dy="492" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;fillColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="20" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="2" vertex="1">
+                    <mxGeometry x="5" y="40" width="10" height="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="利用者" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="-10" y="60" width="50" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="ホーム画面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="40" width="100" height="530" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="6" vertex="1">
+                    <mxGeometry x="45" y="80" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="席を予約画面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="40" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="14">
+                    <mxGeometry x="45" y="100" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="14">
+                    <mxGeometry x="45" y="120" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="座席予約&lt;br&gt;コントローラ" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#2D7600;fillColor=#60a917;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="40" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="16" vertex="1">
+                    <mxGeometry x="45" y="90" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="16">
+                    <mxGeometry x="45" y="130" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="16">
+                    <mxGeometry x="45" y="200" width="10" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="16">
+                    <mxGeometry x="45" y="310" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="16">
+                    <mxGeometry x="45" y="390" width="10" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="16">
+                    <mxGeometry x="45" y="470" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;shape=connector;rounded=1;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=#000000;entryX=-0.063;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="5" target="13" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="160" y="120" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="120"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="席の予約を押す" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" parent="20" vertex="1" connectable="0">
+                    <mxGeometry x="-0.0724" y="-1" relative="1" as="geometry">
+                        <mxPoint y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="席を予約画面&lt;br&gt;(人数指定済み)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="40" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="25">
+                    <mxGeometry x="45" y="170" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="25">
+                    <mxGeometry x="45" y="190" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="席を予約画面&lt;br&gt;(日付選択済み)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="40" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="27">
+                    <mxGeometry x="45" y="270" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="27">
+                    <mxGeometry x="45" y="300" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="席を予約画面&lt;br&gt;(日時選択済み)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="600" y="40" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="29">
+                    <mxGeometry x="45" y="350" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="29">
+                    <mxGeometry x="45" y="380" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="席を予約確認画面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="40" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="127" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="31">
+                    <mxGeometry x="45" y="440" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="133" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="31">
+                    <mxGeometry x="45" y="460" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="席の予約完了画面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
+                    <mxGeometry x="840" y="45" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="33">
+                    <mxGeometry x="45" y="500" width="10" height="15" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="食堂" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="1">
+                    <mxGeometry x="1080" y="40" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="35">
+                    <mxGeometry x="45" y="140" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="35">
+                    <mxGeometry x="45" y="240" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="35">
+                    <mxGeometry x="45" y="320" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="予約台帳" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="40" width="100" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="37">
+                    <mxGeometry x="45" y="160" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="37">
+                    <mxGeometry x="45" y="210" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="37">
+                    <mxGeometry x="45" y="260" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="37">
+                    <mxGeometry x="45" y="340" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="143" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="37">
+                    <mxGeometry x="45" y="480" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;endFill=1;strokeColor=#000000;startArrow=none;" edge="1" parent="37" source="143" target="37">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="37">
+                    <mxGeometry x="45" y="500" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="予約" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontColor=#000000;strokeColor=#A50040;fillColor=#d80073;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="400" width="100" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="123" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="39">
+                    <mxGeometry x="45" y="70" width="10" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;entryX=0.069;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="13" target="17">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1000" y="130" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="610" y="130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="44" value="席を予約する(利用者ID)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="43">
+                    <mxGeometry x="0.0828" relative="1" as="geometry">
+                        <mxPoint x="-34" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontColor=#000000;strokeColor=#000000;entryX=0.993;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.007;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="17" target="46">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="700" y="140"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="席の予約画面を表示する()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="45">
+                    <mxGeometry x="-0.1888" y="1" relative="1" as="geometry">
+                        <mxPoint x="-67" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#ffffff;strokeColor=#000000;entryX=0.021;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="48">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="130" y="160"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="50" value="予約人数を選択する&lt;br&gt;(1~6人まで)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="49">
+                    <mxGeometry x="-0.0275" y="-1" relative="1" as="geometry">
+                        <mxPoint x="3" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;entryX=0.013;entryY=-0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="52">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="予約人数を選択する(利用者ID, 予約人数)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="51">
+                    <mxGeometry x="0.291" relative="1" as="geometry">
+                        <mxPoint x="-104" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;entryX=0.083;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="52" target="36">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1120" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="61" value="座席数を取得()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="55">
+                    <mxGeometry x="0.1619" y="1" relative="1" as="geometry">
+                        <mxPoint x="-9" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="52" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="日時で予約を取得()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="58">
+                    <mxGeometry x="0.1106" y="1" relative="1" as="geometry">
+                        <mxPoint x="-8" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;entryX=0.978;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="52" target="65">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="710" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="残席が表示されたカレンダーフォームを含む人数が指定された予約画面を表示する()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="64">
+                    <mxGeometry x="-0.0685" y="1" relative="1" as="geometry">
+                        <mxPoint x="-10" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" style="edgeStyle=none;html=1;entryX=-0.081;entryY=-0.072;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="5" target="68">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="予約日を選択する&lt;br&gt;(2日後までから選択)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="69">
+                    <mxGeometry x="0.0802" relative="1" as="geometry">
+                        <mxPoint x="-13" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="68" target="71">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="予約日を選択する(利用者ID, 予約人数, 予約日)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="73">
+                    <mxGeometry x="0.0401" relative="1" as="geometry">
+                        <mxPoint x="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="78" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="71" target="75">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1130" y="250"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="79" value="その日にすでに予約を取っていないか&lt;br&gt;(利用者ID, 予約日)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="78">
+                    <mxGeometry x="0.215" relative="1" as="geometry">
+                        <mxPoint x="-25" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="71" target="80">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="座席数を取得()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="82">
+                    <mxGeometry x="0.2222" relative="1" as="geometry">
+                        <mxPoint x="-12" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="71" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="日付で予約を取得()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="85">
+                    <mxGeometry x="0.128" y="1" relative="1" as="geometry">
+                        <mxPoint x="-10" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="89" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="71" target="88">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="770" y="310"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="90" value="残席が表示された時間帯フォームを含む&lt;br&gt;カレンダーで日程が選択された席の予約画面()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="89">
+                    <mxGeometry x="-0.0636" relative="1" as="geometry">
+                        <mxPoint x="-15" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="92" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="5" target="91">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="予約時刻を選択する&lt;br&gt;(食堂の開店時間10分おきに選択)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" connectable="0" vertex="1" parent="92">
+                    <mxGeometry x="0.0974" y="1" relative="1" as="geometry">
+                        <mxPoint x="-23" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="91" target="94">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="予約時刻を選択する(利用者ID, 予約人数, 予約日, 予約時刻)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="96">
+                    <mxGeometry x="0.1669" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-39" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1015" y="360" as="sourcePoint"/>
+                        <mxPoint x="1125" y="360" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1070" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" value="座席数を取得()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="100">
+                    <mxGeometry x="0.2508" y="4" relative="1" as="geometry">
+                        <mxPoint x="-13" y="4" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="103" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="94" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="日時で予約を取得()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="103">
+                    <mxGeometry x="0.1282" y="1" relative="1" as="geometry">
+                        <mxPoint x="-9" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="94" target="105">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="残席が表示された滞在時間フォームを含む&lt;br&gt;日時が選択された予約画面を表示()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="107">
+                    <mxGeometry x="-0.0893" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="5" target="109">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="滞在時間を選択する&lt;br&gt;(10, 20, 30分)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="110">
+                    <mxGeometry x="0.0719" y="1" relative="1" as="geometry">
+                        <mxPoint x="-21" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="113" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="109" target="112">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="滞在時間を選択する&lt;br&gt;(利用者ID, 予約人数, 予約日, 予約時刻, 滞在時間)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="113">
+                    <mxGeometry x="0.1035" relative="1" as="geometry">
+                        <mxPoint x="-8" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="125" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;dashed=1;endArrow=open;endFill=0;" edge="1" parent="1" source="112" target="39">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="1310" y="440" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="1190" y="440"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="126" value="create()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" connectable="0" vertex="1" parent="125">
+                    <mxGeometry x="0.1197" y="2" relative="1" as="geometry">
+                        <mxPoint x="-11" y="2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="128" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="112" target="127">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="950" y="480"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="129" value="予約確認画面を&lt;br&gt;表示()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="128">
+                    <mxGeometry x="-0.2704" relative="1" as="geometry">
+                        <mxPoint x="-31" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="134" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="5" target="133">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="予約ボタンを押す" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="134">
+                    <mxGeometry x="0.0478" y="1" relative="1" as="geometry">
+                        <mxPoint x="-30" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="138" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="133" target="137">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="890" y="510"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="139" value="予約を確定する()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="138">
+                    <mxGeometry x="0.2366" relative="1" as="geometry">
+                        <mxPoint x="-27" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="141" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;strokeColor=#000000;" edge="1" parent="1" source="112" target="123">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1190" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="142" value="予約情報をセット&lt;br&gt;(利用者ID, 利用人数, 予約日, 予約日時, 予約時刻, 滞在時間)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="141">
+                    <mxGeometry x="0.1024" y="-1" relative="1" as="geometry">
+                        <mxPoint x="-22" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="146" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="137" target="143">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1140" y="520"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="147" value="予約ができるか確認(予約)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="146">
+                    <mxGeometry x="0.2014" y="1" relative="1" as="geometry">
+                        <mxPoint x="-23" y="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="137" target="153">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="予約を登録する(予約)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="155">
+                    <mxGeometry x="0.1231" relative="1" as="geometry">
+                        <mxPoint x="-19" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="157" style="edgeStyle=none;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=12;fontColor=#000000;endArrow=classic;endFill=1;strokeColor=#000000;" edge="1" parent="1" source="137" target="148">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="950" y="550"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="158" value="予約完了画面を&lt;br&gt;表示する()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="157">
+                    <mxGeometry x="-0.2382" relative="1" as="geometry">
+                        <mxPoint x="-13" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
