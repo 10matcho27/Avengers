@@ -1,1 +1,67 @@
-<mxfile host="1kt877i7rrkqmfr7huchcppd78a6rp4p998mlt45oaj2r2d90bkc" modified="2022-07-11T02:48:33.754Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.68.0 Chrome/98.0.4758.141 Electron/17.4.7 Safari/537.36" etag="qXGIWb1yB2ZzKFYN-JEa" version="12.2.4" pages="1"><diagram id="6AXBUA2ZQwxcqaj4gc7x" name="ページ1">7Vrfb6M4EP5rIuUebsWPQJLHTdLuntTqqma19+yAA1YNRsZpkv3rbwyGQExbNvH2oSWKWjNjHPx9M54Z45G7TA7fOMriexZiOnKs8DByVyPHmc58+CsFx1LgeUoQcRKWIvskWJNfWAktJd2REOetjoIxKkjWFgYsTXEgWjLEOdu3u20Zbf9qhiKsCdYBorr0PxKKuJTOnOlJ/h2TKK5+2fbnpWaDgqeIs12qfm/kuNviU6oTVI2lJprHKGT7hsi9GblLzpgoW8lhiamEtoKtvO/2BW393Bynos8NbnnDM6I7NfWfBO/Vs4ljhQc8Ziabu4TecpRAc7GPicDrDAVSvgcrAFksEgpXNjS3LBVLRhkvBnCt4gPyXHD2hFsa/+brrbyDUNqQ2xtkY8BjoU9JzfIZc4EPDZGa4jfMEiz4EboorafQVtY48crL/Yla27ZUn7jBKzydsillT1E99AlTaChYuyGeaBAvARvGGaWYfzSk3TbSztTSoPacDqRt3wDSnob0GvNnArh9MJQnZ/ZsvSfKvobyI85YTsCkjx8caP9dgZ5qQK+QQBuUf3R7nr0rzDMN5hgGWQcc41QHek8SilKsEFwrjUQUURKl0A4AB1jY3YWcP4Gc4qtSCCY5CGJCwzt0ZDs5iVxAwlBdLWLGyS8YFlUsgZoLlR6B4zV7rOWdIJakcZxDn4eKAvtMdI8OrY53KBdKEEAUQllONvU0EsQjki6YECxRnQwwPD93JD0C+10E2wYInmsEb3YwO51cmIvQXCBlJdsN61eiinCKt+JFunPwQJJGd0Wf1eQkeVSzlCIG925pkQfGJAzB7oAqJqS3F88mScgYSUWBgreAL+CytL54Iw8efAnX9ukavrI7B/9OYS6IFKxhIH2Pc9FeBnRqZ72prWK834/Lqt81VFbm0OBSY5GSgp2SxSp7ty+iMAEyKD5x9kNSuvrb1nh1dV7dDg4p2mD6IGMlYXJ8XvY94/Yt+gxw5jn9OJsZoMzuoGyhiqgfHKUlGuPSJ//6tE5pgNW+q6pnYFG1HY3WHCPxiHNIuZFkdIigRiNoze7LZDudNaxlgm19n2AHRP8DDZ9K3DdQyfqRbIVIYF2a7pIN5v9uHzDLaIc+p0x0SMGi8k+7Irwapmv/uyZOdxrMbGLAXvRNjyFOX0JanQC/yZoB0vT9kzJS51hA5YnH0rUhQPuy+itXNaUtvXrcdvLOnmvw87F09qY2QU+4ETjGTV1eRJEVyTOKjuMhPbjOmGY9jckxYE36PlHA0ghmM+QGpnODyeyy3MCem8gN9H2qMgf4pJ76etj2e3P7m2HbNRG29b2wIWxfQlpfBzQRtfXtrdejtoy2y3olHoLtnzKBnrHWrnzsGiNw9H0xfkqo7hGhQ6w1FGun1mWxdmog1FamMqzPLQ5r6zdfCxvgTN86yXEaSp8cVtirSKwynjczIwMvHjpOccjNqQJW9Az/horG7PtC58KKxsTedsdBEkX2LUWRvk1JSxMolZ/UoV+temrvMb5A+waqno4TLUNUvYS0+ftVPR2HY+qqR/rhuOWwMJzVcNLzamjdWsmHiuhPmUfPiqh6Of0b9gGXpzOzha5xLtm9+R8=</diagram></mxfile>
+<mxfile host="65bd71144e" pages="1">
+    <diagram id="6AXBUA2ZQwxcqaj4gc7x" name="ページ1">
+        <mxGraphModel dx="642" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="View" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#1ba1e2;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="45" width="1100" height="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Contoroller" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#1ba1e2;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="270" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Service" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#1ba1e2;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="400" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Repository" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#1ba1e2;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="600" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Database" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#000000;fillColor=#1ba1e2;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="800" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="homeScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="60" width="160" height="102" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="button" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" parent="8" vertex="1">
+                    <mxGeometry y="26" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="+ pageTransition(button)" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" parent="8" vertex="1">
+                    <mxGeometry y="52" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="seatReservationScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="60" width="200" height="192" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="userID&lt;br&gt;date&lt;br&gt;numberOfPeople&lt;br&gt;time&lt;br&gt;seats" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" parent="12" vertex="1">
+                    <mxGeometry y="26" width="200" height="84" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="+ setDate(date)&#10;+ setPeople(numberOfPeople)&#10;+ setTime(time)&#10;makeReservation()&#10;screenDisplay()" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" parent="12" vertex="1">
+                    <mxGeometry y="110" width="200" height="82" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="congestionScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="60" width="200" height="182" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="date" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" parent="16" vertex="1">
+                    <mxGeometry y="26" width="200" height="34" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="+ setDate(date)&#10;makeCongestion()&#10;screenDisplay()" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" parent="16" vertex="1">
+                    <mxGeometry y="60" width="200" height="122" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="reservationMail" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="60" width="200" height="62" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="sendMail()" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" parent="20" vertex="1">
+                    <mxGeometry y="26" width="200" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="seatingLeavingScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="60" width="200" height="142" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="seatingFlag&lt;br&gt;leavingFlag" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" parent="24" vertex="1">
+                    <mxGeometry y="26" width="200" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="+ setFlag(seatingFlag, leavingFlag)&#10;makeSeatingLeaving()&#10;screenDisplay()" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" parent="24" vertex="1">
+                    <mxGeometry y="90" width="200" height="52" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
