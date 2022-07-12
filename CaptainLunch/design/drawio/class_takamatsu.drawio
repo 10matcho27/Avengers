@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="1">
     <diagram id="6AXBUA2ZQwxcqaj4gc7x" name="ページ1">
-        <mxGraphModel dx="2794" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="528" dy="255" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -50,7 +50,7 @@
                 <mxCell id="48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" parent="46" vertex="1">
                     <mxGeometry y="60" width="380" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="49" value="+ String showCalendar(int year, int month, int day)&#10;+ String showReservationView(ReservationForm rForm, )&#10;+ String showCreateForm(int year int month int day)&#10;+ String checkResavation(ReservationForm rForm)&#10;+ String registerReservation(ResavationForm rFrom)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="46" vertex="1">
+                <mxCell id="49" value="+ String showReservationView(String uid)&#10;+ String confirmReservation(ReservationForm rForm, String uid)&#10;+ String registerReservation(ResavationForm rFrom)&#10;+ String showSeatStatusView(String uid)&#10;+ String checkIn(String uid, SeatStatusForm sForm)&#10;+ String checkOut(String uid, SeatStatusForm sForm)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="46" vertex="1">
                     <mxGeometry y="68" width="380" height="102" as="geometry"/>
                 </mxCell>
                 <mxCell id="50" value="CongestionController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;" parent="1" vertex="1">
@@ -62,20 +62,20 @@
                 <mxCell id="52" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" parent="50" vertex="1">
                     <mxGeometry y="50" width="410" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="53" value="+ String showCongestionView(int utilizationRate, List&lt;int&gt; congestionLog)&#10;+ " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="50" vertex="1">
+                <mxCell id="53" value="+ String showCongestionView(String uid) " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="50" vertex="1">
                     <mxGeometry y="58" width="410" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="NotificationController[REST]" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
-                    <mxGeometry x="1160" y="360" width="370" height="86" as="geometry"/>
+                <mxCell id="54" value="NotificationRestController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FFFFFF;fillColor=#2A2A2A;strokeColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="1160" y="360" width="230" height="86" as="geometry"/>
                 </mxCell>
                 <mxCell id="55" value="- NotificationSerivece nService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="54" vertex="1">
-                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                    <mxGeometry y="26" width="230" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" parent="54" vertex="1">
-                    <mxGeometry y="52" width="370" height="8" as="geometry"/>
+                    <mxGeometry y="52" width="230" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="57" value="+ String checkResarvationStatus(NotificationSerivece nService&#10;)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="54" vertex="1">
-                    <mxGeometry y="60" width="370" height="26" as="geometry"/>
+                <mxCell id="57" value="+ Boolean checkResarvationStatus()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="54" vertex="1">
+                    <mxGeometry y="60" width="230" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="UserService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="80" y="680" width="200" height="86" as="geometry">
@@ -181,7 +181,7 @@
                     <mxGeometry x="600" y="1120" width="520" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="Contoroller" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
-                    <mxGeometry x="-370" y="490" width="307" height="270" as="geometry"/>
+                    <mxGeometry x="40" y="310" width="1640" height="270" as="geometry"/>
                 </mxCell>
                 <mxCell id="102" value="homeScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
                     <mxGeometry x="80" y="80" width="160" height="80" as="geometry"/>
@@ -230,6 +230,17 @@
                 </mxCell>
                 <mxCell id="117" value="uid&lt;br&gt;reservationForm" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="116">
                     <mxGeometry y="26" width="240" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="CafeteriaRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="940" width="220" height="58" as="geometry">
+                        <mxRectangle x="60" y="440" width="100" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="+ Cafeteria findById(String cid)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="118">
+                    <mxGeometry y="26" width="220" height="24" as="geometry"/>
+                </mxCell>
+                <mxCell id="120" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="118">
+                    <mxGeometry y="50" width="220" height="8" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
