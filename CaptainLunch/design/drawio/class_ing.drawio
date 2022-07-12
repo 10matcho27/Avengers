@@ -126,9 +126,6 @@
                 <mxCell id="91" value="- Date since&#10;- int seatNum" style="text;strokeColor=#000000;fillColor=#a0522d;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="90" vertex="1">
                     <mxGeometry y="26" width="120" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="96" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;startSize=26;" parent="1" source="94" target="5" edge="1">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
                 <mxCell id="94" value="RemainingSeatsDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#a0522d;strokeColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="1720" y="480" width="160" height="80" as="geometry">
                         <mxRectangle x="60" y="440" width="100" height="26" as="alternateBounds"/>
