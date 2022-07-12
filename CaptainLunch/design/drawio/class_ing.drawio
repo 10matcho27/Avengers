@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="1">
     <diagram id="6AXBUA2ZQwxcqaj4gc7x" name="ページ1">
-        <mxGraphModel dx="443" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="759" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -125,6 +125,9 @@
                 </mxCell>
                 <mxCell id="91" value="- Date since&#10;- int seatNum" style="text;strokeColor=#000000;fillColor=#a0522d;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" parent="90" vertex="1">
                     <mxGeometry y="26" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#000000;startSize=26;" parent="1" source="94" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
                 <mxCell id="94" value="RemainingSeatsDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#a0522d;strokeColor=#000000;" parent="1" vertex="1">
                     <mxGeometry x="1720" y="480" width="160" height="80" as="geometry">
@@ -300,6 +303,18 @@
                 </mxCell>
                 <mxCell id="231" value="くそでかDB" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#000000;strokeColor=#432D57;fontSize=50;" vertex="1" parent="1">
                     <mxGeometry x="1200" y="960" width="400" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="253" value="UC8 : 座席の予約" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="679.9972069453788" y="59.99734307913536" as="geometry"/>
+                </mxCell>
+                <mxCell id="254" value="UC7 : 混雑状況確認" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="1199.9972069453788" y="59.99734307913536" as="geometry"/>
+                </mxCell>
+                <mxCell id="255" value="UC13 : 着席・退席を入力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="1439.9972069453788" y="59.99734307913536" as="geometry"/>
+                </mxCell>
+                <mxCell id="256" value="UC12 : 通知を確認する" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="1114.9972069453788" y="299.99734307913536" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
