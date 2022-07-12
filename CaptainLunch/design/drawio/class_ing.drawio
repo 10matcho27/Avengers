@@ -1,11 +1,11 @@
 <mxfile host="65bd71144e" pages="1">
     <diagram id="6AXBUA2ZQwxcqaj4gc7x" name="ページ1">
-        <mxGraphModel dx="1770" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+        <mxGraphModel dx="819" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="3" value="View" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
-                    <mxGeometry x="40" y="40" width="1440" height="240" as="geometry"/>
+                    <mxGeometry x="40" y="40" width="1600" height="240" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="Service" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" parent="1" vertex="1">
                     <mxGeometry x="40" y="640" width="1640" height="240" as="geometry"/>
@@ -27,7 +27,7 @@
                 <mxCell id="18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="16">
                     <mxGeometry y="70" width="380" height="8" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="+ Reservation createReservation(Reservation reserv)&#10;+ List&lt;ReservationDto&gt; getReservationByUid(Date date, String uid)&#10;+ int getResevationNumBySlotId(Date date, int slotId)&#10;+ int caluculateRemainingSeatsNum(Date date, int slotId)&#10;+ List&lt;RemainingSeatsDto&gt; getRemainingSeatsDto(Date date)&#10;+ void checkIn(String uid, Long rid)&#10;+ void checkOut(String uid, Long rid)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="16">
+                <mxCell id="19" value="+ Reservation createReservation(Reservation reserv)&#10;+ List&lt;ReservationDto&gt; getReservationByUid(Date date, String uid)&#10;+ int getResevationNumBySlotId(Date date, int slotId)&#10;+ int caluculateRemainingSeatsNum(Date date, int slotId)&#10;+ List&lt;RemainingSeatsDto&gt; getRemainingSeats(Date date)&#10;+ SeatStatusDto checkSeatStatus(String uid)&#10;+ void checkIn(String uid, Long rid)&#10;+ void checkOut(String uid, Long rid)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="16">
                     <mxGeometry y="78" width="380" height="122" as="geometry"/>
                 </mxCell>
                 <mxCell id="42" value="UserController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
@@ -68,59 +68,38 @@
                 <mxCell id="53" value="+ String showCongestion(int utilizationRate, List&lt;int&gt; congestionLog)&#10;+ " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="50">
                     <mxGeometry y="60" width="390" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="54" value="NotificationController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#FFFFFF;strokeColor=#000000;" vertex="1" parent="1">
-                    <mxGeometry x="1241" y="80" width="190" height="86" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="- NotificationSerivece nService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="54">
-                    <mxGeometry y="26" width="190" height="26" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="54">
-                    <mxGeometry y="52" width="190" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="57" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="54">
-                    <mxGeometry y="60" width="190" height="26" as="geometry"/>
-                </mxCell>
                 <mxCell id="59" value="homeScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="80" y="80" width="160" height="102" as="geometry"/>
+                    <mxGeometry x="80" y="80" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="60" value="button" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="59">
+                <mxCell id="60" value="uid" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="59">
                     <mxGeometry y="26" width="160" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="61" value="+ pageTransition(button)" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="59">
-                    <mxGeometry y="52" width="160" height="50" as="geometry"/>
+                <mxCell id="61" value="pageTransition(String uid)" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="59">
+                    <mxGeometry y="52" width="160" height="28" as="geometry"/>
                 </mxCell>
                 <mxCell id="62" value="seatReservationScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="280" y="80" width="200" height="192" as="geometry"/>
+                    <mxGeometry x="280" y="80" width="240" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="63" value="userID&lt;br&gt;date&lt;br&gt;numberOfPeople&lt;br&gt;time&lt;br&gt;seats" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="62">
-                    <mxGeometry y="26" width="200" height="84" as="geometry"/>
+                <mxCell id="63" value="uid&lt;br&gt;reservationForm&lt;br&gt;List&amp;lt;ReservationDto&amp;gt;&lt;br&gt;List&amp;lt;RemainingSeatsDto&amp;gt;" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="62">
+                    <mxGeometry y="26" width="240" height="74" as="geometry"/>
                 </mxCell>
-                <mxCell id="64" value="+ setDate(date)&#10;+ setPeople(numberOfPeople)&#10;+ setTime(time)&#10;makeReservation()&#10;screenDisplay()" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="62">
-                    <mxGeometry y="110" width="200" height="82" as="geometry"/>
+                <mxCell id="64" value="createReservation(ReservationForm form)" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="62">
+                    <mxGeometry y="100" width="240" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="65" value="congestionScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="515" y="80" width="200" height="182" as="geometry"/>
+                    <mxGeometry x="1120" y="80" width="200" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="66" value="date" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="65">
-                    <mxGeometry y="26" width="200" height="34" as="geometry"/>
+                <mxCell id="66" value="uid&lt;br&gt;List&amp;lt;CongestionDto&amp;gt;" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="65">
+                    <mxGeometry y="26" width="200" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="67" value="+ setDate(date)&#10;makeCongestion()&#10;screenDisplay()" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="65">
-                    <mxGeometry y="60" width="200" height="122" as="geometry"/>
+                <mxCell id="70" value="seatStatusScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="1360" y="80" width="240" height="132" as="geometry"/>
                 </mxCell>
-                <mxCell id="68" value="reservationMail" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="760" y="80" width="200" height="62" as="geometry"/>
+                <mxCell id="71" value="uid&lt;br&gt;ReservationDto&lt;br&gt;seatStatusForm" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="70">
+                    <mxGeometry y="26" width="240" height="54" as="geometry"/>
                 </mxCell>
-                <mxCell id="69" value="sendMail()" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="68">
-                    <mxGeometry y="26" width="200" height="36" as="geometry"/>
-                </mxCell>
-                <mxCell id="70" value="seatingLeavingScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
-                    <mxGeometry x="1000" y="80" width="200" height="142" as="geometry"/>
-                </mxCell>
-                <mxCell id="71" value="seatingFlag&lt;br&gt;leavingFlag" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="70">
-                    <mxGeometry y="26" width="200" height="64" as="geometry"/>
-                </mxCell>
-                <mxCell id="72" value="+ setFlag(seatingFlag, leavingFlag)&#10;makeSeatingLeaving()&#10;screenDisplay()" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="70">
-                    <mxGeometry y="90" width="200" height="52" as="geometry"/>
+                <mxCell id="72" value="changeStatus(seatStatusForm form)" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="70">
+                    <mxGeometry y="80" width="240" height="52" as="geometry"/>
                 </mxCell>
                 <mxCell id="41" value="Contoroller" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
                     <mxGeometry x="40" y="315" width="1040" height="270" as="geometry"/>
@@ -144,14 +123,14 @@
                         <mxRectangle x="60" y="440" width="100" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="74" value="- ReservationService rService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="73">
-                    <mxGeometry y="26" width="400" height="26" as="geometry"/>
+                <mxCell id="74" value="- ReservationService rService&#10;- UserService uService" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="73">
+                    <mxGeometry y="26" width="400" height="34" as="geometry"/>
                 </mxCell>
                 <mxCell id="75" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="73">
-                    <mxGeometry y="52" width="400" height="8" as="geometry"/>
+                    <mxGeometry y="60" width="400" height="8" as="geometry"/>
                 </mxCell>
                 <mxCell id="76" value="+ sendNotification(Notification notification)&#10;+ void checkResevationNotification()&#10;+ void checkCheckIn()&#10;+ void checkCheckOut()&#10;+ void checkClose()&#10;+ Notification makeNotification(String uid, Long rid, String message)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="73">
-                    <mxGeometry y="60" width="400" height="100" as="geometry"/>
+                    <mxGeometry y="68" width="400" height="92" as="geometry"/>
                 </mxCell>
                 <mxCell id="77" value="CongestionService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
                     <mxGeometry x="1160" y="680" width="240" height="138" as="geometry">
@@ -168,7 +147,7 @@
                     <mxGeometry y="78" width="240" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="81" value="CafeteriaService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
-                    <mxGeometry x="1470" y="690" width="200" height="120" as="geometry">
+                    <mxGeometry x="1440" y="680" width="200" height="120" as="geometry">
                         <mxRectangle x="60" y="440" width="100" height="26" as="alternateBounds"/>
                     </mxGeometry>
                 </mxCell>
@@ -182,7 +161,7 @@
                     <mxGeometry y="60" width="200" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="85" value="DTO" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
-                    <mxGeometry x="600" y="920" width="920" height="160" as="geometry"/>
+                    <mxGeometry x="600" y="920" width="1440" height="160" as="geometry"/>
                 </mxCell>
                 <mxCell id="86" value="CongestionDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
                     <mxGeometry x="640" y="960" width="120" height="80" as="geometry">
@@ -227,6 +206,62 @@
                 </mxCell>
                 <mxCell id="101" value="Entity" style="shape=umlFrame;whiteSpace=wrap;html=1;fontColor=#000000;strokeColor=#006EAF;fillColor=#1ba1e2;" vertex="1" parent="1">
                     <mxGeometry x="600" y="1120" width="520" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="UserRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="960" width="160" height="60" as="geometry">
+                        <mxRectangle x="60" y="440" width="100" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="104" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="102">
+                    <mxGeometry y="26" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="+ User findByUid(String uid)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="102">
+                    <mxGeometry y="34" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="ReservationRepository" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="960" width="160" height="60" as="geometry">
+                        <mxRectangle x="60" y="440" width="100" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="107" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="106">
+                    <mxGeometry y="26" width="160" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="+ Reservation save(Reservation reserv)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="106">
+                    <mxGeometry y="34" width="160" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="109" value="SeatStatusDto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="1520" y="960" width="120" height="80" as="geometry">
+                        <mxRectangle x="60" y="440" width="100" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="110" value="- int slotId&#10;- Date since&#10;- int statusFlag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="109">
+                    <mxGeometry y="26" width="120" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="111" value="seatReservationConfirmScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="80" width="240" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" value="uid&lt;br&gt;reservationForm" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="111">
+                    <mxGeometry y="26" width="240" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="113" value="confirmReservation(ReservationForm form)" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;strokeWidth=2;" vertex="1" parent="111">
+                    <mxGeometry y="80" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="seatReservationCompleteScreen" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="840" y="80" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" value="uid&lt;br&gt;reservationForm" style="text;strokeColor=#000000;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;fontColor=#000000;strokeWidth=2;" vertex="1" parent="114">
+                    <mxGeometry y="26" width="240" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="SeatStatusForm" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#000000;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+                    <mxGeometry x="1690" y="960" width="150" height="88" as="geometry">
+                        <mxRectangle x="60" y="440" width="100" height="26" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="- String uid&#10;- int slotId&#10;- int statusFlag" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontColor=#000000;" vertex="1" parent="118">
+                    <mxGeometry y="26" width="150" height="54" as="geometry"/>
+                </mxCell>
+                <mxCell id="121" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="118">
+                    <mxGeometry y="80" width="150" height="8" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
