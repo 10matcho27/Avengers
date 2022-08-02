@@ -26,6 +26,9 @@
 1. MySQLに新規データベースcaptainlunchを作成
     - ユーザ： captain　パスワード：cpassword に全権委譲 (grant all) すること
 1. MySQLを起動
+1. phpMyAdminでテーブル"cafeteria"に以下のようなデータを挿入
+    - もちろんSQL文での挿入もできるが，やり方は知らん
+<img src="./img/phpMyAdmin.png">
 1. VS-CodeでCaptainLunchApplication.java をF5で実行
     - もしくはターミナルでgredlewがあるパスで ./gradlew bootrun を実行
 1. http://localhost:2290/<任意のユーザ名>/reservation を開く
