@@ -26,6 +26,7 @@
 1. MySQLに新規データベースcaptainlunchを作成
     - ユーザ： captain　パスワード：cpassword に全権委譲 (grant all) すること
 1. MySQLを起動
+1. httpdを起動
 1. phpMyAdminでテーブル"cafeteria"に以下のようなデータを挿入
     - もちろんSQL文での挿入もできるが，やり方は知らん
 <img src="./img/phpMyAdmin.png">
